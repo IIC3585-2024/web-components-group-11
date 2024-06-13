@@ -11,7 +11,7 @@ template.innerHTML = `
   <div class="todo-list">
     <h1></h1>
     <p></p><input type="text">
-    <button>Add</button>
+    <button>Agregar</button>
     <ul></ul>
     <slot></slot>
   </div>

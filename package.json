@@ -1,0 +1,19 @@
+{
+  "name": "web-components-grupo-11",
+  "version": "1.0.0",
+  "description": "Tarea 5 - Web Components - Grupo 11 2024-1",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html --no-cache --open"
+  },
+  "author": "Grupo 11",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "lit": "^3.1.4",
+    "lit-element": "^2.3.1"
+  }
+}
