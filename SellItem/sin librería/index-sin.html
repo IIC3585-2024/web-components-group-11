@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sell Item Component</title>
+    <script defer src="SellItem.js"></script>
+  </head>
+  <body>
+    <a href="../../index.html">Volver</a>
+    <!-- <button id="add-item">Add Item</button> -->
+
+    <div id="item-container">
+
+      <sell-item
+        photo="https://www.shutterstock.com/image-photo/plastic-water-bottle-disposable-with-600nw-1498837502.jpg"
+        title="Botella"
+        price="$1500"
+        discount-price="$1200"
+        discount="20%"
+        rating="4"
+      ></sell-item>
+
+    </div>  
+  </body>
+
+  <!-- <script>
+    document.getElementById('add-item').addEventListener('click', () => {
+      const productContainer = document.getElementById('item-container');
+      const newProductCard = document.createElement('sell-item');
+      
+      newProductCard.setAttribute('photo', 'https://www.shutterstock.com/image-photo/plastic-water-bottle-disposable-with-600nw-1498837502.jpg');
+      newProductCard.setAttribute('title', 'Botella');
+      newProductCard.setAttribute('price', '$1500');
+      newProductCard.setAttribute('discount-price', '$1200');
+      newProductCard.setAttribute('discount', '20%');
+      newProductCard.setAttribute('rating', '4');
+
+      productContainer.appendChild(newProductCard);
+    });
+  </script> -->
+</html>
